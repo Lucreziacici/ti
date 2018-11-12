@@ -1,0 +1,33 @@
+<view class='pd20 flex_column_center_center'>
+  <view>
+    <view class='flex_start_center fz10 pd20_0'>
+      <text> 活动名称：</text>
+      <input placeholder='活动名称'></input>
+    </view>
+    <view class='flex_start_center fz10 pd20_0'>
+      <text> 活动时间：</text>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <input placeholder='选择日期' value='{{date}}'></input>
+      </picker>
+    </view>
+    <view class='flex_start_center fz10 pd20_0'>
+      <text> 活动地点：</text>
+      <input placeholder='活动地点'></input>
+    </view>
+    <view class='flex_start_center fz10 pd20_0'>
+      <text> 活动分数：</text>
+      <input placeholder='活动分数'></input>
+    </view>
+    <view class='flex_start_center fz10 pd20_0'>
+      <text> 上传图片：</text>
+      <image bindtap='upload' src='{{tempFilePaths?tempFilePaths:"../../images/upload.png"}}'></image>
+    </view>
+    <view class='flex_start_center fz10 pd20_0'>
+      <text> 活动描述：</text>
+      <textarea class='pd20' placeholder='描述'></textarea>
+    </view>
+  </view>
+  <view>
+    <button class="common_button">保存</button>
+  </view>
+</view>

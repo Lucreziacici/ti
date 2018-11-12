@@ -1,0 +1,20 @@
+
+.activity_item{
+  padding: 0 0 20rpx 0;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0 0 20rpx 0;
+  background: white;
+}
+.activity_item image{
+  width: 750rpx;
+}
+.activity_name{
+  padding: 10rpx 32rpx;
+  color: #333;
+  font-size: 13pt;
+}
+.activity_time{
+  padding: 0 32rpx;
+  color: #999;
+  font-size: 10pt;
+}

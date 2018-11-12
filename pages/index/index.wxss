@@ -1,0 +1,15 @@
+page{
+  background-color: #f6f6f6;
+}
+.login_ul{
+  position: fixed;
+  top:0;
+  width: 750rpx;
+}
+.login_li image{
+  width: 50rpx;
+  
+}
+.activity_list{
+  margin:92rpx 0  0  0;
+}

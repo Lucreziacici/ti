@@ -1,0 +1,157 @@
+/**app.wxss**/
+
+.container {
+  height: 100%;
+}
+
+.input {
+  background: white;
+  width: 600rpx;
+  text-align: left;
+  font-size: 12pt;
+  border-radius: 10rpx;
+  padding: 20rpx;
+}
+
+/*公共颜色  */
+
+.white {
+  color: white;
+}
+
+.whitebg {
+  background-color: white;
+}
+
+.commoncolor {
+  color: #9c0001;
+}
+
+.commonbg {
+  background-color: #9c0001;
+}
+
+/*公共距离  */
+
+.pd10 {
+  padding: 10rpx;
+}
+
+.pd20 {
+  padding: 20rpx;
+}
+
+.pd10_0 {
+  padding: 10rpx 0;
+}
+
+.pd20_0 {
+  padding: 20rpx 0;
+}
+
+.pd0_32 {
+  padding: 0 32rpx;
+}
+
+.pd0_10 {
+  padding: 0 10rpx;
+}
+
+.pd10_20{
+  padding: 10rpx 20rpx;
+  }
+/*公共字体大小  */
+
+.fz9 {
+  font-size: 9pt;
+}
+
+.fz10 {
+  font-size: 10pt;
+}
+
+.fz11 {
+  font-size: 11pt;
+}
+
+.fz12 {
+  font-size: 12pt;
+}
+
+.fz16 {
+  font-size: 16pt;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* 公共按钮 */
+
+.common_button {
+  background-color: #9c0001;
+  color: white;
+  font-size: 10pt;
+  padding: 10rpx 20rpx;
+  line-height: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common_button image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0 10rpx 0 0;
+}
+/* 浮动 */
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+/*flex  */
+
+.flex_between_center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex_around_center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex_column_center_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_start_center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*表格公共  */
+
+.acivityList {
+  margin: 10rpx 0 0 0;
+}
+
+.acivityItem {
+  border-left: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+  padding: 20rpx;
+  background: white;
+  margin: 10rpx 0 0 0;
+}
+
+.acivityItem:last-child {
+  border-bottom: 1px solid #f1f1f1;
+}

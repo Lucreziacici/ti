@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#9C0001",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "activity": "/Component/activity/activity"
+  }
+}

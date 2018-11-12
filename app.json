@@ -1,0 +1,24 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/studentLogin/studentLogin",
+    "pages/teacherLogin/teacherLogin",
+    "pages/main/main",
+    "pages/activity/activity",
+    "pages/studentActivity/studentActivity",
+    "pages/studentCall/studentCall",
+    "pages/studentScore/studentScore",
+    "pages/teacherActivity/teacherActivity",
+    "pages/teacherAddActivity/teacherAddActivity",
+    "pages/teacherScore/teacherScore",
+    "pages/teacherActivityInfo/teacherActivityInfo"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "武体",
+    "navigationBarTextStyle":"black"
+  }
+}

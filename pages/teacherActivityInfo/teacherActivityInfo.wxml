@@ -1,0 +1,113 @@
+<!--pages/studentActivity/studentActivity.wxml-->
+<view>
+  <view class='header flex_around_center fz10 pd20_0 whitebg '>
+    <view>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <input placeholder='选择日期' value='{{date}}'></input>
+      </picker>
+    </view>
+    <view>
+      <input placeholder='活动名称'></input>
+    </view>
+    <view>
+      <button class='common_button'>搜索</button>
+    </view>
+  </view>
+  <view class='acivityList'>
+    <view class='acivityItem fz10'>
+      <view>
+        <text class='bold'>活动编号：</text> 001
+      </view>
+      <view>
+        <text class='bold'> 姓名：</text> 张三
+      </view>
+      <view>
+        <text class='bold'> 学号：</text> 123124123
+      </view>
+      <view>
+        <text class='bold'> 活动次数：</text> 2
+      </view>
+      <view>
+        <text class='bold'> 活动得分：</text> 3
+      </view>
+
+    </view>
+     <view class='acivityItem fz10'>
+      <view>
+        <text class='bold'>活动编号：</text> 001
+      </view>
+      <view>
+        <text class='bold'> 姓名：</text> 张三
+      </view>
+      <view>
+        <text class='bold'> 学号：</text> 123124123
+      </view>
+      <view>
+        <text class='bold'> 活动次数：</text> 2
+      </view>
+      <view>
+        <text class='bold'> 活动得分：</text> 3
+      </view>
+
+    </view>
+        <view class='acivityItem fz10'>
+      <view>
+        <text class='bold'>活动编号：</text> 001
+      </view>
+      <view>
+        <text class='bold'> 姓名：</text> 张三
+      </view>
+      <view>
+        <text class='bold'> 学号：</text> 123124123
+      </view>
+      <view>
+        <text class='bold'> 活动次数：</text> 2
+      </view>
+      <view>
+        <text class='bold'> 活动得分：</text> 3
+      </view>
+
+    </view>
+        <view class='acivityItem fz10'>
+      <view>
+        <text class='bold'>活动编号：</text> 001
+      </view>
+      <view>
+        <text class='bold'> 姓名：</text> 张三
+      </view>
+      <view>
+        <text class='bold'> 学号：</text> 123124123
+      </view>
+      <view>
+        <text class='bold'> 活动次数：</text> 2
+      </view>
+      <view>
+        <text class='bold'> 活动得分：</text> 3
+      </view>
+
+    </view>
+        <view class='acivityItem fz10'>
+      <view>
+        <text class='bold'>活动编号：</text> 001
+      </view>
+      <view>
+        <text class='bold'> 姓名：</text> 张三
+      </view>
+      <view>
+        <text class='bold'> 学号：</text> 123124123
+      </view>
+      <view>
+        <text class='bold'> 活动次数：</text> 2
+      </view>
+      <view>
+        <text class='bold'> 活动得分：</text> 3
+      </view>
+
+    </view>
+
+
+  </view>
+  <view class="footer">
+    <button class="common_button">导出excel</button>
+  </view>
+</view>

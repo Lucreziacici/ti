@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+
+  <image class="logo" mode="widthFix" src="../../images/logo.png"></image>
+  <view class='white fz16 pd20 bold'>教师登陆</view>
+  <input class="input" focus placeholder='账号'></input>
+  <input class="input" placeholder='身份证后六位'></input>
+  <button class="login whitebg" bindtap='login'>登    陆</button>
+  <navigator class='tips' url='../studentLogin/studentLogin'>学生入口</navigator>
+
+</view>

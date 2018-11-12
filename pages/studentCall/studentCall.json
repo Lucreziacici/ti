@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "晚点名",
+  "usingComponents": {
+    "studentFooter": "/Component/studentFooter/studentFooter"
+  }
+}

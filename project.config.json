@@ -1,0 +1,91 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.91",
+	"appid": "wx20c2c037e4d1bd7b",
+	"projectname": "wuti",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": -1,
+					"name": "学生登陆",
+					"pathName": "pages/studentLogin/studentLogin",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "活动详情",
+					"pathName": "pages/activity/activity",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生查询活动页",
+					"pathName": "pages/studentActivity/studentActivity",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "晚点名",
+					"pathName": "pages/studentCall/studentCall",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "成绩查询",
+					"pathName": "pages/studentScore/studentScore",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教师学院活动",
+					"pathName": "pages/teacherActivity/teacherActivity",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教师发布活动",
+					"pathName": "pages/teacherAddActivity/teacherAddActivity",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教师查询成绩",
+					"pathName": "pages/teacherScore/teacherScore",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教师活动统计",
+					"pathName": "pages/teacherActivityInfo/teacherActivityInfo"
+				}
+			]
+		}
+	}
+}

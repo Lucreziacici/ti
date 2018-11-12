@@ -1,0 +1,21 @@
+<!--pages/activity/activity.wxml-->
+<view class='activity fz11 pd0_32'>
+  <view class='pd10_0'>
+    <text class="title bold">活动名称:</text>
+    <text>活动一活动一</text>
+  </view>
+  <image class='main_image pd20_0' mode="widthFix" src='../../images/activejpg.png'></image>
+  <view class='pd10_0'>
+    <text class="title bold">活动时间:</text>
+    <text>2019.02.12-2019.03.2</text>
+  </view>
+  <view class='pd10_0'>
+    <text class="title bold">活动地点:</text>
+    <text>活动地点活动地点活动地点</text>
+  </view>
+  <view class='pd10_0'>
+    <text class="title bold">活动描述:</text>
+    <text>活动描述活动描述活动描述活动描述活动描述活动描述活动描述</text>
+  </view>
+
+</view>

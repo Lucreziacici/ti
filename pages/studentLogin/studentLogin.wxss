@@ -1,0 +1,37 @@
+.container{
+  background: #9C0001;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+
+}
+.logo{
+  width: 500rpx;
+  margin: 50rpx 0 130rpx 0;
+
+}
+.input{
+  margin: 30rpx 0 0 0;
+}
+
+button{
+  margin: 30rpx 0 0 0;
+  width: 640rpx;
+  height: 80rpx;
+  padding: 0 20rpx;
+  font-size: 10pt;
+  line-height: 80rpx;
+  color: #333;
+
+}
+
+.tips{
+  font-size: 9pt;
+  color: #f2f2f2;
+  margin: 40rpx 0 0 0;
+}
+navigator{
+  text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+<view class='activity_item'>
+      <navigator hover-class='none' url="../activity/activity">
+        <image mode="widthFix" src='../../images/activejpg.png'></image>
+        <view class='activity_name'>活动名称：活动名称活动名称活动名称</view>
+        <view class='activity_time'>活动时间：2019.1.10-2019.3.2</view>
+      </navigator>
+    </view>
