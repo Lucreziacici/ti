@@ -12,7 +12,8 @@
     "pages/teacherActivity/teacherActivity",
     "pages/teacherAddActivity/teacherAddActivity",
     "pages/teacherScore/teacherScore",
-    "pages/teacherActivityInfo/teacherActivityInfo"
+    "pages/teacherActivityInfo/teacherActivityInfo",
+    "pages/teacherCall/teacherCall"
 
   ],
   "window":{
