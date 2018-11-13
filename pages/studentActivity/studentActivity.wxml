@@ -10,7 +10,7 @@
       <input placeholder='活动名称'></input>
     </view>
     <view>
-      <button class='common_button'>搜索</button>
+      <button class='common_button'><image src='../../images/search.png'></image>搜索</button>
     </view>
   </view>
   <view class='acivityList'>

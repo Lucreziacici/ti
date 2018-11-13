@@ -1,4 +1,4 @@
-// pages/teacherActivity/teacherActivity.js
+// pages/teacherMenu/teacherMenu.js
 Page({
 
   /**
@@ -14,16 +14,7 @@ Page({
   onLoad: function (options) {
 
   },
-add:function(){
- wx.navigateTo({
-   url: '../teacherAddActivity/teacherAddActivity',
- })
-},
-  goteacheractivitycall:function(){
-    wx.navigateTo({
-      url: '../teacherActivityCall/teacherActivityCall',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -1,10 +1,8 @@
 <!--pages/teacherActivity/teacherActivity.wxml-->
 <view>
   <view class='header flex_around_center fz10 pd20_0 whitebg '>
-    <view>
-      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
-        <input placeholder='选择日期' value='{{date}}'></input>
-      </picker>
+    <view class='title'>
+      活动名称活动名称11111111111111
     </view>
     <view>
       <input placeholder='学号/姓名'></input>
@@ -147,8 +145,12 @@
         </view>
       </view>
     </view>
-
+  
 
   </view>
-  <teacherFooter active='3'></teacherFooter>
+  <view class="footer flex_between_center whitebg">
+    
+    <button class="common_button">结束活动</button>
+    <button class="common_button">提交</button>
+  </view>
 </view>

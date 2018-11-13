@@ -12,6 +12,13 @@ page {
   z-index: 100;
 }
 
+.header .title {
+  width: 250rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .header input {
   border: 1px solid #f1f1f1;
   width: 220rpx;
@@ -22,9 +29,7 @@ page {
   position: fixed;
   top: 100rpx;
   width: 710rpx;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: flex-end; */
+  /* display: flex; *//* align-items: center; *//* justify-content: flex-end; */
   border-bottom: 2px solid #eee;
   z-index: 100;
 }
@@ -39,4 +44,16 @@ page {
 
 .itembody {
   width: 450rpx;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+}
+
+.footer button {
+  height: 80rpx;
+  width: 375rpx;
+  border-radius: 0px;
 }

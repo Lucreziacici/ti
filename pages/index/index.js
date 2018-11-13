@@ -9,4 +9,7 @@ Page({
   onLoad: function () {
     
   },
+  onShareAppMessage: function () {
+
+  }
 })

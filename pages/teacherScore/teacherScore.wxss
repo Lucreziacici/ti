@@ -14,6 +14,17 @@ page{
   width: 220rpx;
   padding: 0 10rpx;
 }
+.header_button {
+  position: fixed;
+  top: 100rpx;
+  width: 710rpx;
+  border-bottom: 2px solid #eee;
+  z-index: 100;
+}
+
+.header_button button {
+  margin: 0 0 0 20rpx;
+}
 .acivityList{
-  margin: 110rpx 0 120rpx 0;
+  margin: 180rpx 0 120rpx 0;
 }

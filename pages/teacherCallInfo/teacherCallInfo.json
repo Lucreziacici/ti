@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "学院活动",
   "usingComponents": {
+    "teacherFooter": "/Component/teacherFooter/teacherFooter"
   }
 }

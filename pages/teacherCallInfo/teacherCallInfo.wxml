@@ -3,11 +3,13 @@
   <view class='header flex_around_center fz10 pd20_0 whitebg '>
     <view>
       <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
-        <input placeholder='选择日期' value='{{date}}'></input>
+        <input placeholder='开始日期' value='{{date}}'></input>
       </picker>
     </view>
     <view>
-      <input placeholder='学号/姓名'></input>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <input placeholder='结束日期' value='{{date}}'></input>
+      </picker>
     </view>
     <view>
       <button class='common_button'>
@@ -19,15 +21,11 @@
       <checkbox value="{{item.name}}" checked="{{item.checked}}" />全选</view>
     <view class='fr'>
       <button class='common_button' bindtap='add'>
-        <image src='../../images/yidao.png'></image>已到</button>
+        <image src='../../images/excel.png'></image>导出Excel</button>
     </view>
     <view class='fr'>
       <button class='common_button'>
-        <image src='../../images/weidao.png'></image>未到</button>
-    </view>
-    <view class='fr'>
-      <button class='common_button'>
-        <image src='../../images/qingjia.png'></image>请假</button>
+        <image src='../../images/delete.png'></image>批量删除</button>
     </view>
 
 
@@ -37,18 +35,18 @@
       <view class='pd0_10 itemheader'>
         <checkbox value="{{item.name}}" checked="{{item.checked}}" />
       </view>
-      <view class='itembody'>
+      <view class='itembody' bindtap="goteacheractivitycall">
         <view>
           <text class='bold'>编号：</text> 001
         </view>
         <view>
-          <text class='bold'> 姓名：</text> 张三
+          <text class='bold'> 点名时间：</text> 2018.02.12
         </view>
         <view>
-          <text class='bold'> 学号：</text> 123123123123
+          <text class='bold'> 已到人数：</text> 12
         </view>
         <view>
-          <text class='bold'> 状态：</text> 已到
+          <text class='bold'> 未到人数：</text> 1
         </view>
       </view>
     </view>
@@ -56,18 +54,18 @@
       <view class='pd0_10 itemheader'>
         <checkbox value="{{item.name}}" checked="{{item.checked}}" />
       </view>
-      <view class='itembody'>
+      <view class='itembody' bindtap="goteacheractivitycall">
         <view>
           <text class='bold'>编号：</text> 001
         </view>
         <view>
-          <text class='bold'> 姓名：</text> 张三
+          <text class='bold'> 点名时间：</text> 2018.02.12
         </view>
         <view>
-          <text class='bold'> 学号：</text> 123123123123
+          <text class='bold'> 已到人数：</text> 12
         </view>
         <view>
-          <text class='bold'> 状态：</text> 已到
+          <text class='bold'> 未到人数：</text> 1
         </view>
       </view>
     </view>
@@ -75,80 +73,60 @@
       <view class='pd0_10 itemheader'>
         <checkbox value="{{item.name}}" checked="{{item.checked}}" />
       </view>
-      <view class='itembody'>
+      <view class='itembody' bindtap="goteacheractivitycall">
         <view>
           <text class='bold'>编号：</text> 001
         </view>
         <view>
-          <text class='bold'> 姓名：</text> 张三
+          <text class='bold'> 点名时间：</text> 2018.02.12
         </view>
         <view>
-          <text class='bold'> 学号：</text> 123123123123
+          <text class='bold'> 已到人数：</text> 12
         </view>
         <view>
-          <text class='bold'> 状态：</text> 已到
+          <text class='bold'> 未到人数：</text> 1
         </view>
       </view>
     </view>
-    <view class='acivityItem fz10 flex_start_center'>
+     <view class='acivityItem fz10 flex_start_center'>
       <view class='pd0_10 itemheader'>
         <checkbox value="{{item.name}}" checked="{{item.checked}}" />
       </view>
-      <view class='itembody'>
+      <view class='itembody' bindtap="goteacheractivitycall">
         <view>
           <text class='bold'>编号：</text> 001
         </view>
         <view>
-          <text class='bold'> 姓名：</text> 张三
+          <text class='bold'> 点名时间：</text> 2018.02.12
         </view>
         <view>
-          <text class='bold'> 学号：</text> 123123123123
+          <text class='bold'> 已到人数：</text> 12
         </view>
         <view>
-          <text class='bold'> 状态：</text> 已到
+          <text class='bold'> 未到人数：</text> 1
         </view>
       </view>
     </view>
-        <view class='acivityItem fz10 flex_start_center'>
+     <view class='acivityItem fz10 flex_start_center'>
       <view class='pd0_10 itemheader'>
         <checkbox value="{{item.name}}" checked="{{item.checked}}" />
       </view>
-      <view class='itembody'>
+      <view class='itembody' bindtap="goteacheractivitycall">
         <view>
           <text class='bold'>编号：</text> 001
         </view>
         <view>
-          <text class='bold'> 姓名：</text> 张三
+          <text class='bold'> 点名时间：</text> 2018.02.12
         </view>
         <view>
-          <text class='bold'> 学号：</text> 123123123123
+          <text class='bold'> 已到人数：</text> 12
         </view>
         <view>
-          <text class='bold'> 状态：</text> 已到
-        </view>
-      </view>
-    </view>
-    <view class='acivityItem fz10 flex_start_center'>
-      <view class='pd0_10 itemheader'>
-        <checkbox value="{{item.name}}" checked="{{item.checked}}" />
-      </view>
-      <view class='itembody'>
-        <view>
-          <text class='bold'>编号：</text> 001
-        </view>
-        <view>
-          <text class='bold'> 姓名：</text> 张三
-        </view>
-        <view>
-          <text class='bold'> 学号：</text> 123123123123
-        </view>
-        <view>
-          <text class='bold'> 状态：</text> 已到
+          <text class='bold'> 未到人数：</text> 1
         </view>
       </view>
     </view>
 
 
   </view>
-  <teacherFooter active='3'></teacherFooter>
 </view>

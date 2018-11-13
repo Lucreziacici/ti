@@ -13,106 +13,113 @@
       <button class='common_button'><image src='../../images/search.png'></image>搜索</button>
     </view>
   </view>
+   <view class='header_button whitebg pd10_20'>
+    <view class='fr'>
+      <button class='common_button' bindtap='add'>
+        <image src='../../images/excel.png'></image>导入Excel</button>
+    </view>
+  </view>
   <view class='acivityList'>
     <view class='acivityItem fz10'>
       <view>
         <text class='bold'>编号：</text> 001
       </view>
       <view>
-        <text class='bold'> 科目：</text> 计算机
+        <text class='bold'>学号：</text> 123123123
       </view>
       <view>
-        <text class='bold'> 必修/选修：</text> 选修
+        <text class='bold'>姓名：</text> 张三
       </view>
       <view>
-        <text class='bold'> 分数：</text> 99
+        <text class='bold'> 计算机：</text> 88
+      </view>
+      <view>
+        <text class='bold'> 高数：</text> 77
+      </view>
+      <view>
+        <text class='bold'> 平均分：</text> 87
       </view>
     </view>
-    <view class='acivityItem fz10'>
+      <view class='acivityItem fz10'>
       <view>
         <text class='bold'>编号：</text> 001
       </view>
       <view>
-        <text class='bold'> 科目：</text> 计算机
+        <text class='bold'>学号：</text> 123123123
       </view>
       <view>
-        <text class='bold'> 必修/选修：</text> 选修
+        <text class='bold'>姓名：</text> 张三
       </view>
       <view>
-        <text class='bold'> 分数：</text> 99
+        <text class='bold'> 计算机：</text> 88
+      </view>
+      <view>
+        <text class='bold'> 高数：</text> 77
+      </view>
+      <view>
+        <text class='bold'> 平均分：</text> 87
       </view>
     </view>
-    <view class='acivityItem fz10'>
+      <view class='acivityItem fz10'>
       <view>
         <text class='bold'>编号：</text> 001
       </view>
       <view>
-        <text class='bold'> 科目：</text> 计算机
+        <text class='bold'>学号：</text> 123123123
       </view>
       <view>
-        <text class='bold'> 必修/选修：</text> 选修
+        <text class='bold'>姓名：</text> 张三
       </view>
       <view>
-        <text class='bold'> 分数：</text> 99
+        <text class='bold'> 计算机：</text> 88
+      </view>
+      <view>
+        <text class='bold'> 高数：</text> 77
+      </view>
+      <view>
+        <text class='bold'> 平均分：</text> 87
       </view>
     </view>
-    <view class='acivityItem fz10'>
+      <view class='acivityItem fz10'>
       <view>
         <text class='bold'>编号：</text> 001
       </view>
       <view>
-        <text class='bold'> 科目：</text> 计算机
+        <text class='bold'>学号：</text> 123123123
       </view>
       <view>
-        <text class='bold'> 必修/选修：</text> 选修
+        <text class='bold'>姓名：</text> 张三
       </view>
       <view>
-        <text class='bold'> 分数：</text> 99
+        <text class='bold'> 计算机：</text> 88
+      </view>
+      <view>
+        <text class='bold'> 高数：</text> 77
+      </view>
+      <view>
+        <text class='bold'> 平均分：</text> 87
       </view>
     </view>
-    <view class='acivityItem fz10'>
+      <view class='acivityItem fz10'>
       <view>
         <text class='bold'>编号：</text> 001
       </view>
       <view>
-        <text class='bold'> 科目：</text> 计算机
+        <text class='bold'>学号：</text> 123123123
       </view>
       <view>
-        <text class='bold'> 必修/选修：</text> 选修
+        <text class='bold'>姓名：</text> 张三
       </view>
       <view>
-        <text class='bold'> 分数：</text> 99
+        <text class='bold'> 计算机：</text> 88
+      </view>
+      <view>
+        <text class='bold'> 高数：</text> 77
+      </view>
+      <view>
+        <text class='bold'> 平均分：</text> 87
       </view>
     </view>
-    <view class='acivityItem fz10'>
-      <view>
-        <text class='bold'>编号：</text> 001
-      </view>
-      <view>
-        <text class='bold'> 科目：</text> 计算机
-      </view>
-      <view>
-        <text class='bold'> 必修/选修：</text> 选修
-      </view>
-      <view>
-        <text class='bold'> 分数：</text> 99
-      </view>
-    </view>
-    <view class='acivityItem fz10'>
-      <view>
-        <text class='bold'>编号：</text> 001
-      </view>
-      <view>
-        <text class='bold'> 科目：</text> 计算机
-      </view>
-      <view>
-        <text class='bold'> 必修/选修：</text> 选修
-      </view>
-      <view>
-        <text class='bold'> 分数：</text> 99
-      </view>
-    </view>
-
 
 
   </view>

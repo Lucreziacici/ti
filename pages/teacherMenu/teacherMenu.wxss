@@ -1,0 +1,8 @@
+page{
+  background-color: #f2f2f2;
+
+}
+.menu image{
+ width: 40rpx;
+ height: 40rpx;
+}

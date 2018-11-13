@@ -6,19 +6,19 @@
       </navigator>
     </view>
      <view>
-      <navigator  url='../studentActivity/studentActivity'  hover-class='none' class="flex_column_center_center fz10 {{active==2?'active':''}}">
+      <navigator  url='../teacherStuInfo/teacherStuInfo'  hover-class='none' class="flex_column_center_center fz10 {{active==2?'active':''}}">
       <image src="../../images/xuesheng{{active==2?'_active':''}}.png"></image>
       <text>学生信息</text>
       </navigator>
     </view>
      <view>
-      <navigator url='../studentCall/studentCall'  hover-class='none'  class="flex_column_center_center fz10 {{active==3?'active':''}}">
+      <navigator url='../teacherCall/teacherCall'  hover-class='none'  class="flex_column_center_center fz10 {{active==3?'active':''}}">
       <image src="../../images/dianming{{active==3?'_active':''}}.png"></image>
       <text>晚点名</text>
       </navigator>
     </view>
      <view>
-      <navigator url='../teacherScore/teacherScore'  hover-class='none'   class="flex_column_center_center fz10 {{active==4?'active':''}}">
+      <navigator url='../teacherMenu/teacherMenu'  hover-class='none'   class="flex_column_center_center fz10 {{active==4?'active':''}}">
       <image src="../../images/chengji{{active==4?'_active':''}}.png"></image>
       <text>成绩查询</text>
       </navigator>

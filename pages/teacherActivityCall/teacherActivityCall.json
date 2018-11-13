@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "教师点名",
+  "navigationBarTitleText": "活动点名",
   "usingComponents": {
     "teacherFooter": "/Component/teacherFooter/teacherFooter"
   }

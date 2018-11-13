@@ -1,0 +1,36 @@
+<!--pages/teacherMenu/teacherMenu.wxml-->
+<view>
+  <view class='menu'>
+    <view class='whitebg mg10_0'>
+      <navigator url='../teacherActivityInfo/teacherActivityInfo' class='flex_between_center pd20'>
+        <view class='color333 fz11 flex_start_center'>
+          <image src='../../images/huodongtongji.png'></image>
+          <text class='mg0_10'>活动统计</text>
+        </view>
+
+        <image src='../../images/arrow.png'></image>
+      </navigator>
+    </view>
+    <view class='whitebg mg10_0'>
+      <navigator url='../teacherScore/teacherScore' class='flex_between_center pd20'>
+        <view class='color333 fz11 flex_start_center'>
+          <image src='../../images/chengjitongji.png'></image>
+          <text class='mg0_10'>成绩查询</text>
+        </view>
+
+        <image src='../../images/arrow.png'></image>
+      </navigator>
+    </view>
+    <view class='whitebg mg10_0'>
+      <navigator url='../teacherCallInfo/teacherCallInfo' class='flex_between_center pd20'>
+        <view class='color333 fz11 flex_start_center'>
+          <image src='../../images/dianmingtongji.png'></image>
+          <text class='mg0_10'>晚点名统计</text>
+        </view>
+
+        <image src='../../images/arrow.png'></image>
+      </navigator>
+    </view>
+  </view>
+  <teacherFooter active="4"></teacherFooter>
+</view>

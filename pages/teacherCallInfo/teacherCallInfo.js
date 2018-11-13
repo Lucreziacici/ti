@@ -14,12 +14,12 @@ Page({
   onLoad: function (options) {
 
   },
-add:function(){
- wx.navigateTo({
-   url: '../teacherAddActivity/teacherAddActivity',
- })
-},
-  goteacheractivitycall:function(){
+  add: function () {
+    wx.navigateTo({
+      url: '../teacherAddActivity/teacherAddActivity',
+    })
+  },
+  goteacheractivitycall: function () {
     wx.navigateTo({
       url: '../teacherActivityCall/teacherActivityCall',
     })

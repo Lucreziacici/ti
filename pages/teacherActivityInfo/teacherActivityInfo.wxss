@@ -5,7 +5,7 @@ page{
 }
 .header{
   border-bottom: 2rpx solid #eee;
-  width: 750rpx;
+  width: 710rpx;
   position: fixed;
   top: 0;
 }
@@ -24,4 +24,5 @@ page{
 }
 .footer button{
   height: 80rpx;
+  border-radius: 0px;
 }

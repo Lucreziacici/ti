@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
 	"appid": "wx20c2c037e4d1bd7b",
-	"projectname": "wuti",
+	"projectname": "wuti1",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 8,
+			"current": 13,
 			"list": [
 				{
 					"id": -1,
@@ -83,7 +83,37 @@
 				{
 					"id": -1,
 					"name": "教师活动统计",
-					"pathName": "pages/teacherActivityInfo/teacherActivityInfo"
+					"pathName": "pages/teacherActivityInfo/teacherActivityInfo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教师晚点名",
+					"pathName": "pages/teacherCall/teacherCall",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教师活动点名",
+					"pathName": "pages/teacherActivityCall/teacherActivityCall",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教师学生信息",
+					"pathName": "pages/teacherStuInfo/teacherStuInfo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教师晚点名信息",
+					"pathName": "pages/teacherCallInfo/teacherCallInfo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教师成绩查询菜单",
+					"pathName": "pages/teacherMenu/teacherMenu"
 				}
 			]
 		}
