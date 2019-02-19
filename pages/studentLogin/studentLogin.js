@@ -1,10 +1,13 @@
-// pages/studentLogin/studentLogin.js
+// pages/studentLogin/studentLogin.js、
+var network = require("../../libs/network.js")
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    Id:"",
+    PassWord:"",
 
   },
 
@@ -29,8 +32,26 @@ Page({
 
   },
   login: function() {
-    wx.navigateTo({
-      url: '../studentActivity/studentActivity',
+    network.POST('student/login', { Id: this.data.Id, PassWord: this.data.PassWord, InType:'1'},
+      (res) => {
+        console.log(res)
+        wx.navigateTo({
+          url: '../schoolperformance/schoolperformance',
+        })
+      }, (res) => {
+        console.log(res);
+      })
+
+  
+  },
+  bindKeyId(e){
+      this.setData({
+        Id: e.detail.value
+      })
+  },
+  bindKeyPassword(e) {
+    this.setData({
+      PassWord: e.detail.value
     })
   },
   /**

@@ -1,7 +1,7 @@
 {
 	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 13,
+			"current": 14,
 			"list": [
 				{
 					"id": -1,
@@ -113,7 +113,13 @@
 				{
 					"id": -1,
 					"name": "教师成绩查询菜单",
-					"pathName": "pages/teacherMenu/teacherMenu"
+					"pathName": "pages/teacherMenu/teacherMenu",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "在校表现",
+					"pathName": "pages/schoolperformance/schoolperformance"
 				}
 			]
 		}

@@ -1,7 +1,7 @@
 {
   "navigationBarBackgroundColor": "#9C0001",
   "navigationBarTextStyle": "white",
-  "navigationBarTitleText":"学生登陆",
+  "navigationBarTitleText":"家长登陆",
   "usingComponents": {
     "activity": "/Component/activity/activity"
   }

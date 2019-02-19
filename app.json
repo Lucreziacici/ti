@@ -6,6 +6,7 @@
     "pages/teacherLogin/teacherLogin",
     "pages/main/main",
     "pages/activity/activity",
+    "pages/schoolperformance/schoolperformance",
     "pages/studentActivity/studentActivity",
     "pages/studentCall/studentCall",
     "pages/studentScore/studentScore",

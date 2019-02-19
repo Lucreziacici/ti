@@ -1,21 +1,23 @@
 <!--  index.wxml-->
-<view>
+<view class='commonbg'>
   <view class='login_ul flex_around_center commonbg pd20'>
     <view class='login_li flex_around_center'>
       <navigator  class=' flex_around_center'  hover-class='none' url='../studentLogin/studentLogin'>
         <image mode="widthFix" src='../../images/student_icon.png'></image>
-        <text class='white pd10 fz10'>学生登陆</text>
+        <text class='white pd10 fz12'>家长登陆</text>
       </navigator>
 
     </view>
     <view class='login_li '>
       <navigator  class=' flex_around_center'   hover-class='none'  url='../teacherLogin/teacherLogin'>
         <image mode="widthFix" src='../../images/teacher_icon.png'></image>
-        <text class='white pd10 fz10'>教师登陆</text>
+        <text class='white pd10 fz12'>教师登陆</text>
       </navigator>
     </view>
   </view>
-  <view class='activity_list'>
+   <image class="logo" mode="widthFix" src="../../images/logo.png"></image>
+   <view class='white fz20 mg-80'>运 动 训 练 学 院</view>
+  <!-- <view class='activity_list'>
     <activity></activity>
     <activity></activity>
     <activity></activity>
@@ -23,5 +25,5 @@
     <activity></activity>
     <activity></activity>
 
-  </view>
+  </view> -->
 </view>

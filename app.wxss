@@ -66,6 +66,12 @@
   .mg10_0{
     margin: 10rpx 0;
   }
+  .mg-80{
+    margin: -80rpx 0 0 0;
+  }
+  .mg80{
+    margin: 80rpx 0 0 0;
+  }
 /*公共字体大小  */
 
 .fz9 {
@@ -86,6 +92,9 @@
 
 .fz16 {
   font-size: 16pt;
+}
+.fz20{
+  font-size: 20pt;
 }
 
 .bold {

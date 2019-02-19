@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "在校表现",
+  "usingComponents": {
+    "studentFooter": "/Component/studentFooter/studentFooter"
+  }
+}

@@ -1,11 +1,12 @@
-// pages/teacherActivity/teacherActivity.js
+// pages/studentActivity/studentActivity.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    scrollTop:0
+    date: ""
+
   },
 
   /**
@@ -14,11 +15,7 @@ Page({
   onLoad: function (options) {
 
   },
-  add: function () {
-    this.setData({
-      scrollTop:this.data.scrollTop+63
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -32,7 +29,11 @@ Page({
   onShow: function () {
 
   },
-
+  bindDateChange: function (e) {
+    this.setData({
+      date: e.detail.value
+    })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */

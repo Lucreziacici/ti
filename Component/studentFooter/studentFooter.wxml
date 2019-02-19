@@ -1,8 +1,8 @@
  <view class='footer flex_around_center whitebg'>
     <view>
-      <navigator  url='../studentActivity/studentActivity'  hover-class='none' class="flex_column_center_center fz10 {{active==1?'active':''}}">
+      <navigator  url='../schoolperformance/schoolperformance'  hover-class='none' class="flex_column_center_center fz10 {{active==1?'active':''}}">
       <image src="../../images/huodong{{active==1?'_active':''}}.png"></image>
-      <text>学院活动</text>
+      <text>在校表现</text>
       </navigator>
     </view>
      <view>

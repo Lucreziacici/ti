@@ -1,15 +1,29 @@
 page{
   background-color: #f6f6f6;
+    background: #9C0001;
+    text-align: center;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute; */
+  width: 100%;
 }
 .login_ul{
   position: fixed;
-  top:0;
+  bottom:10px;
   width: 750rpx;
+  font-size: 12pt;
 }
 .login_li image{
   width: 50rpx;
   
 }
+
 .activity_list{
   margin:92rpx 0  0  0;
+}
+.logo{
+  width: 500rpx;
+  margin: 150rpx 0 130rpx 0;
+
 }
